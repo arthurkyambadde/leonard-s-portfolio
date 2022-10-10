@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+  /* reset page padding and margins */
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_navigation {
+  width: 100%;
+  height: 90px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 70px;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 16px;
+  color: #000;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.navigation li {
+  list-style: none;
+}
+
+.navigation li a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #1c1e53;
+  text-decoration: none;
+}
+
+.primary_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 32px;
+  width: 150px;
+  height: 52px;
+  background-color: #fff;
+  border: 1px solid #5e3bee;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.hero {
+  width: 100%;
+  height: 747.31px;
+  background: #f5fcff;
+  padding: 100px 65px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero_details {
+  width: 50%;
+}
+
+.hero_image {
+  width: 50%;
+  background-color: #5e3bee;
+  height: 100%;
+}
+
+.hero_heading {
+  font-weight: 600;
+  font-size: 16px;
+  color: #282938;
+  margin-bottom: 16px;
+}
+
+.hero_intro {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 56px;
+  color: #282938;
+}
+
+.hero_intro--tag {
+  color: #5e3bee;
+}
+
+.hero_main--para {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #1c1e53;
+}
+
+.abut_me {
+  width: 100%;
+  height: 947px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 65px;
+  gap: 80px;
+}
+
+.about_me--image {
+  width: 50%;
+  height: 100%;
+  background-color: #5e3bee;
+}
+
+.about_me--details {
+  width: 50%;
+}
+
+.about_me--heading {
+  font-weight: 600;
+  font-size: 16px;
+  color: #282938;
+  margin-bottom: 8px;
+}
+
+.about_me--main--heading {
+  font-weight: 700;
+  font-size: 48px;
+  color: #282938;
+  margin-bottom: 24px;
+}
+
+.about_me--para {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #1c1e53;
+  margin-bottom: 8px;
+}
+
+.hobbies {
+  padding: 100px 65px;
+}
+
+.hobbies_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hobbie {
+  width: 304px;
+  height: 278px;
+  background: #f5fcff;
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.hobbie_logo {
+  margin-bottom: 24px;
+}
+
+.hobbie_title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #282938;
+  margin-bottom: 16px;
+}
+
+.hobbie_para {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+
+.footer {
+  padding: 80px 65px;
+  width: 100%;
+  height: 250px;
+  background: #f5fcff;
+}
+
+.footer_navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.footer_text {
+  border-top: 1px solid rgba(40, 41, 56, 0.55);
+  padding-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
