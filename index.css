@@ -214,6 +214,7 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 500px;
+  padding: 24px;
 }
 
 table,
@@ -382,7 +383,7 @@ table {
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
   .hero {
-    padding: 16px 0;
+    padding: 24px 0;
     display: flex;
     gap: 16px;
     flex-direction: column;
@@ -521,4 +522,12 @@ table {
   top: 50px;
   left: 100px;
   cursor: pointer;
+}
+
+.family_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  height: 100vh;
 }
