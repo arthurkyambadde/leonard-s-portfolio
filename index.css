@@ -121,7 +121,9 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
+  width: 70%;
   color: #1c1e53;
+  margin-top: 24px;
 }
 
 .abut_me {
@@ -532,6 +534,7 @@ table {
   justify-content: center;
   gap: 24px;
   height: 100vh;
+  width: 50%;
 }
 
 .realFamily {
@@ -541,4 +544,17 @@ table {
   height: 100vh;
   width: 100vw;
   padding: 24px;
+}
+
+.family_minor--heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  color: #1c1e53;
+  margin-bottom: 12px;
+}
+
+.family_details {
+  width: 50%;
+  padding: 48px;
 }
