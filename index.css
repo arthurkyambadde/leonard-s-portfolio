@@ -95,7 +95,7 @@ body {
 
 .hero_image {
   width: 50%;
-  background-color: #5e3bee;
+  /* background-color: #5e3bee; */
   height: 100%;
 }
 
@@ -575,4 +575,14 @@ table {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.travels {
+  width: 33%;
+  height: 100%;
+}
+
+.travel_container {
+  display: flex;
+  justify-content: space-between;
 }
