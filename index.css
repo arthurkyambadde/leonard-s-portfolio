@@ -180,7 +180,7 @@ body {
 
 .hobbie {
   width: 304px;
-  height: 278px;
+  height: 208px;
   background: #f5fcff;
   border-radius: 8px;
   padding: 24px;
@@ -561,28 +561,39 @@ table {
 /* images */
 .hero_img {
   height: 100%;
-  width: 100%;
+  width: 90%;
   object-fit: cover;
 }
 
 .family {
   height: 100%;
-  width: 100%;
+  width: 90%;
   object-fit: cover;
 }
 
 .traveling {
   height: 100%;
-  width: 100%;
+  width: 90%;
   object-fit: cover;
 }
 
 .travels {
-  width: 33%;
-  height: 100%;
+  width: 25%;
+  height: 90%;
+  object-fit: cover;
 }
 
 .travel_container {
   display: flex;
   justify-content: space-between;
+  position: relative;
+}
+
+.cover {
+  height: 100px;
+  background-color: #fff;
+  z-index: 1000;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
