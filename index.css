@@ -557,3 +557,22 @@ table {
   width: 50%;
   padding: 48px;
 }
+
+/* images */
+.hero_img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.family {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.traveling {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
