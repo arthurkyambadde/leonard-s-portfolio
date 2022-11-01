@@ -95,7 +95,6 @@ body {
 
 .hero_image {
   width: 50%;
-  /* background-color: #5e3bee; */
   height: 100%;
 }
 
@@ -139,7 +138,6 @@ body {
 .about_me--image {
   width: 50%;
   height: 100%;
-  background-color: #5e3bee;
 }
 
 .about_me--details {
@@ -296,7 +294,6 @@ table {
 
   .hero_image {
     width: 100%;
-    background-color: #5e3bee;
     height: 100%;
     padding: 16px;
   }
@@ -327,7 +324,6 @@ table {
   .about_me--image {
     width: 100%;
     height: 50%;
-    background-color: #5e3bee;
   }
 
   .about_me--main--heading {
@@ -399,7 +395,6 @@ table {
 
   .hero_image {
     width: 100%;
-    background-color: #5e3bee;
     height: 100%;
     padding: 16px;
   }
@@ -430,7 +425,6 @@ table {
   .about_me--image {
     width: 100%;
     height: 50%;
-    background-color: #5e3bee;
   }
 
   .about_me--main--heading {
@@ -479,6 +473,22 @@ table {
     height: 80px;
     background: #f5fcff;
   }
+}
+
+.social_media {
+  display: flex;
+  gap: 24px;
+}
+
+.social_media a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #1c1e53;
+  text-decoration: none;
+}
+
+.social_media a:hover {
+  color: #5e3bee;
 }
 
 .contact_section {
@@ -587,13 +597,4 @@ table {
   display: flex;
   justify-content: space-between;
   position: relative;
-}
-
-.cover {
-  height: 100px;
-  background-color: #fff;
-  z-index: 1000;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
 }
